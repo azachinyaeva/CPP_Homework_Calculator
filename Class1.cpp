@@ -6,6 +6,11 @@ private:
     float num2;
 
 public:
+Calculator() {
+        num1 = 0;
+        num2 = 0;
+}
+
     double add() 
     {
         return num1 + num2;
@@ -86,3 +91,4 @@ int main()
     }
         return 0;
 }
+
